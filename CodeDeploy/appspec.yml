@@ -3,5 +3,6 @@ os: linux
 files:
   - source: /geostore.war
     destination: /opt/tomcat/webapps
+file_exists_behavior: OVERWRITE
 #test3
 
