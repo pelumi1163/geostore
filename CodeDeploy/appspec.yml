@@ -3,4 +3,5 @@ os: linux
 files:
   - source: /geostore.war
     destination: /opt/tomcat/webapps
-#test2
+#test3
+
