@@ -4,5 +4,13 @@ files:
   - source: /geostore.war
     destination: /opt/tomcat/webapps
 file_exists_behavior: OVERWRITE
-#test3
+
+permissions:
+  - object: /opt/tomcat/webapps
+    pattern: "*.war"
+    owner: tomcat
+    group: tomcat
+    mode: 644
+    type:
+      - file
 
